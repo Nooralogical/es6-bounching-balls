@@ -1,10 +1,10 @@
 /* 
 * Noora Etula
-* ECMAScript 6 Bubble Generator 2
+* ECMAScript 6 Bubble Generator
 * 2018
 */
 
-//class from one bubble
+//One bubble class
 class Bubble {
 
 	constructor(id, x, y, velocityX, velocityY) {
@@ -65,7 +65,7 @@ class Bubble {
 		console.log('You hit bubble: ' + this.id + ' at location x:' + this.x + ' and y:' + this.y);
 	}
 }
-//class for canvas with all bubbles
+//Canvas class with all generated bubbles
 class DrawCanvas {
 
 	constructor(count, intervalSpeed, max) {
