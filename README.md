@@ -1,1 +1,1 @@
-# es6-bounching-balls
+# es6-bubble-generator
